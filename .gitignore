@@ -1,0 +1,44 @@
+# Laravel specific exclusions
+/vendor
+/node_modules
+/public/hot
+/public/build
+/public/storage
+/storage/*.key
+/storage/app/public
+/storage/debugbar
+/storage/framework/cache/data
+/storage/framework/sessions
+/storage/framework/testing
+/storage/framework/views
+/storage/logs
+/.phpunit.cache
+/.phpunit.result.cache
+/.fleet
+/.idea
+/.vscode
+
+# Environment files
+.env
+.env.backup
+.env.production
+.env.example
+
+# Debug and log files
+npm-debug.log
+yarn-error.log
+.phpactor.json
+auth.json
+
+# Vagrant and Laravel Homestead files
+Homestead.json
+Homestead.yaml
+
+# PHPStorm and other JetBrains IDEs
+.idea
+
+# Visual Studio Code
+.vscode
+
+# README.md
+README.md
